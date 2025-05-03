@@ -1,9 +1,9 @@
-# 🧮 Datatypes-Complex Number Creation in Python
+# EX.NO:1(D) Datatypes-Complex Number Creation in Python
 
-## 🎯 Aim
+## Aim
 To write a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
 
-## 🧠 Algorithm
+## Algorithm
 1. Read an integer input from the user and assign it to the variable `a` (real part).
 2. Read another integer input from the user and assign it to the variable `b` (imaginary part).
 3. Create a complex number `x` using the `complex(a, b)` function.
@@ -11,9 +11,18 @@ To write a Python program that reads two integers, creates a complex number usin
 5. Print the real part of `x` using `x.real`.
 6. Print the imaginary part of `x` using `x.imag`.
 
-## 💻 Program
-Add Code Here
+## Program
+```
+a=int(input())
+b=int(input())
+x=complex(a,b)
+print(x)
+print(x.real)
+print(x.imag)
+```
 
 ## Output
+![image](https://github.com/user-attachments/assets/cb3d80a4-5551-4ad1-aa12-a13cf3e1066b)
 
 ## Result
+Thus the program has been successfully executed
