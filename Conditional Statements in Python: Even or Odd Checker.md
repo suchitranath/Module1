@@ -13,17 +13,15 @@ To write a Python program to check whether the given number is **even** or **odd
 
 ## Program
 ```
-a = (0 == True)
-b = (False== False)
-c = True + True
-d = False + 9
-print("a is", a)
-print("b is", b)
-print("c:", c)
-print("d:", d)
+a=int (input ()) if
+(a%2) ==0:
+print("EVEN")
+else:
+print("ODD")
+
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/aa2c054e-2cb1-45e0-af9b-28e88b02d94d)
+![image](https://github.com/user-attachments/assets/6881c942-837c-4a3c-b6a0-0098bc890aa7)
 
 ## Result
 program successfully executed
